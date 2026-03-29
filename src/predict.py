@@ -1,8 +1,4 @@
 # =========================================================
-# PATTERN RECOGNITION FOR FINANCIAL TIME SERIES FORECASTING
-# FINAL IMPROVED VERSION (ASSIGNMENT PERFECT)
-# =========================================================
-
 import os
 import numpy as np
 import pandas as pd
@@ -14,9 +10,7 @@ import yfinance as yf
 from tensorflow.keras import layers, models
 from tensorflow.keras.utils import plot_model
 
-# =========================================================
-# CREATE OUTPUT FOLDER
-# =========================================================
+
 os.makedirs("output", exist_ok=True)
 
 # =========================================================
